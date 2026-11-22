@@ -12,7 +12,7 @@ You open the board's web page and say "make the LED breathe" or "show a spinning
 
 ## Quick start
 
-**Easiest:** flash an ESP32-S3 from Chrome or Edge at **https://project-opentars.github.io/OpenTARS_ESPSelfProgramming/** (steps 1 and 2 below in the browser, over USB). From a terminal:
+**Easiest:** flash an ESP32-S3 from Chrome or Edge at **https://mastllm.github.io/OpenTARS_ESPSelfProgramming/** (steps 1 and 2 below in the browser, over USB). From a terminal:
 
 1. Flash MicroPython (this **erases** the board; use the image for your chip from [micropython.org](https://micropython.org/download/)): `tools/flash.sh /dev/ttyACM0`
 2. Copy the system: `pip install mpremote`, then `tools/deploy.sh /dev/ttyACM0`
@@ -29,7 +29,7 @@ You open the board's web page and say "make the LED breathe" or "show a spinning
 The same system runs on any Linux single-board computer (Raspberry Pi, Orange Pi, Rock, Banana Pi, Jetson...) or any Linux PC, with Python 3.8+ and nothing else to install. There the AI also works with Linux itself: it runs Python 3 programs and **shell commands** (`run_shell`), and uses the GPIO and I2C tools and libraries that are installed.
 
 ```
-git clone https://github.com/project-opentars/OpenTARS_ESPSelfProgramming
+git clone https://github.com/MastLLM/OpenTARS_ESPSelfProgramming
 cd OpenTARS_ESPSelfProgramming
 sbc/install.sh
 ```

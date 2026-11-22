@@ -20,7 +20,7 @@
     <a href="#flash">Flash</a>
     <a href="#linux">Linux boards</a>
     <a href="#pi">openTARS Pi</a>
-    <a href="https://github.com/project-opentars/OpenTARS_ESPSelfProgramming">GitHub</a>
+    <a href="https://github.com/MastLLM/OpenTARS_ESPSelfProgramming">GitHub</a>
   </nav>
 </header>
 
@@ -30,7 +30,7 @@
     <p class="lead">Open the board's page and say "make the LED breathe". A small bridge on your computer hands the request to the AI program you already use (Claude Code, Codex, OpenCode, Pi, Grok Build), which writes MicroPython, runs it on the board, reads the errors and fixes them. No API keys and no model settings.</p>
     <div class="actions">
       <a class="btn primary" href="#flash">Flash an ESP32-S3</a>
-      <a class="btn" href="https://github.com/project-opentars/OpenTARS_ESPSelfProgramming">Source code</a>
+      <a class="btn" href="https://github.com/MastLLM/OpenTARS_ESPSelfProgramming">Source code</a>
     </div>
   </section>
 
@@ -98,7 +98,7 @@
     <p>Two steps, in Chrome or Edge on a computer, with the board plugged in by USB. Nothing is installed on your computer.</p>
 
     <div class="no-serial warnbox" hidden>
-      <p><b>This browser cannot talk to USB devices.</b> Use Chrome or Edge on Windows, macOS, Linux or ChromeOS. Phones and Firefox/Safari do not support Web Serial. You can also flash from a terminal: see the <a href="https://github.com/project-opentars/OpenTARS_ESPSelfProgramming#quick-start">quick start</a>.</p>
+      <p><b>This browser cannot talk to USB devices.</b> Use Chrome or Edge on Windows, macOS, Linux or ChromeOS. Phones and Firefox/Safari do not support Web Serial. You can also flash from a terminal: see the <a href="https://github.com/MastLLM/OpenTARS_ESPSelfProgramming#quick-start">quick start</a>.</p>
     </div>
 
     <ol class="steps needs-serial">
@@ -145,7 +145,7 @@
         <p>No flashing needed: the same system runs in the board's own Python 3, with shell commands and GPIO through libgpiod. Run these on the board, over SSH.</p>
         <p class="small muted">Then open <span class="mono">http://&lt;board&gt;:8080</span>. Tested only on an x86 Linux PC standing in for a board; not yet on a real ARM board.</p>
       </div>
-      <pre class="cmd"><code>git clone https://github.com/project-opentars/OpenTARS_ESPSelfProgramming
+      <pre class="cmd"><code>git clone https://github.com/MastLLM/OpenTARS_ESPSelfProgramming
 cd OpenTARS_ESPSelfProgramming &amp;&amp; sbc/install.sh
 sbc/install.sh --hardware   # GPIO and I2C access, uses sudo, then reboot</code></pre>
     </div>
@@ -184,7 +184,7 @@ sbc/install.sh --hardware   # GPIO and I2C access, uses sudo, then reboot</code>
 </main>
 
 <footer class="foot">
-  <p>MIT license · <a href="https://github.com/project-opentars/OpenTARS_ESPSelfProgramming">GitHub</a> · <a href="https://project-opentars.github.io/OpenTARS/">openTARS</a> · MicroPython (MIT) and ESP Web Tools (Apache-2.0) are served from this site. Nothing is loaded from third parties.</p>
+  <p>MIT license · <a href="https://github.com/MastLLM/OpenTARS_ESPSelfProgramming">GitHub</a> · <a href="https://mastllm.github.io/OpenTARS/">openTARS</a> · MicroPython (MIT) and ESP Web Tools (Apache-2.0) are served from this site. Nothing is loaded from third parties.</p>
 </footer>
 <script>
 (() => {
